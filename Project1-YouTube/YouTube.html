@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>YouTube Page</title>
+        <link rel="stylesheet" href="styles/content.css">
+        <link rel="stylesheet" href="Styles/header.css">
+        <link rel="stylesheet" href="Styles/sidebar.css">
+        <style>
+            body{
+                font-family: Arial, Helvetica, sans-serif;
+                margin: 0;
+            }
+            p{
+              margin-top: 0;
+              margin-bottom: 0;
+             }
+             .icons{
+                height: 24px;
+                cursor: pointer;
+             }
+        </style>
+    </head>
+    <body>
+        <div id="root">
+            <div class="Exercises-YouTube">
+                <!--Header-->
+                <header class="header">
+                    <div class="left-section">
+                        <img class="menu-icon icons" src="Pictures/Icons/hamburger-menu.svg" alt="menu">
+                        <img class="youtube-logo" src="Pictures/Icons/youtube-logo.svg" alt="youtube">
+                    </div>
+                    <div class="middle-section">
+                        <input class="search-bar" type="text" placeholder="Search">
+                        <button class="search-btn">
+                            <img class="search-icon icons" src="Pictures/Icons/search.svg" alt="search">
+                            <div class="tooltip">Search</div>
+                        </button>
+                        <button class="voice-btn">
+                            <img class="voice-icon icons" src="Pictures/Icons/voice-search-icon.svg" alt="voice">
+                            <div class="tooltip">Search with your voice</div>
+                        </button>
+                    </div>
+                    <div class="right-section">
+                        <div class="upload-container">
+                            <img class="upload-icon icons" src="Pictures/Icons/upload.svg" alt="upload">
+                            <div class="tooltip">Create</div>
+                        </div>
+                        <div class="app-container">
+                            <img class="app-icon icons" src="Pictures/Icons/youtube-apps.svg" alt="apps">
+                            <div class="tooltip">YouTube Apps</div>
+                        </div>
+                        <div class="notif-container">
+                            <img class="notif-icon icons" src="Pictures/Icons/notifications.svg" alt="notification">
+                            <div class="notif-count">3</div>
+                            <div class="tooltip">Notifications</div>
+                        </div>
+                        <img class="profile-icon" src="Pictures/Profiles/profile9.jpg" alt="profile">
+                    </div>
+                </header>
+                <!--Sidebar-->
+                <nav class="sidebar">
+                    <div class="sidebar-link">
+                        <img class="icons" src="Pictures/Icons/home.svg" alt="home">
+                        <p>Home</p>
+                    </div>
+                    <div class="sidebar-link">
+                        <img class="icons" src="Pictures/Icons/explore.svg" alt="explore">
+                        <p>Explore</p>
+                    </div>
+                    <div class="sidebar-link">
+                        <img class="icons" src="Pictures/Icons/subscriptions.svg" alt="subscriptions">
+                        <p>Subscriptions</p>
+                    </div>
+                    <div class="sidebar-link">
+                        <img class="icons" src="Pictures/Icons/originals.svg" alt="originals">
+                        <p>Originals</p>
+                    </div>
+                    <div class="sidebar-link">
+                        <img class="icons" src="Pictures/Icons/youtube-music.svg" alt="youtube-music">
+                        <p>Youtube-music</p>
+                    </div>
+                    <div class="sidebar-link">
+                        <img class="icons" src="Pictures/Icons/library.svg" alt="library">
+                        <p>Library</p>
+                    </div>
+                </nav>
+                <main class="main">
+                    <!--Page Content-->
+                    <section class="content">
+                        <!--first picture-->
+                        <div class="piclayout">
+                            <div class="picview">
+                                <img class="pic" src="Pictures/pic1.png" alt="kakashi picture">
+                                <div class="video-time">15:30</div>
+                            </div>
+                            <div class="pictext">
+                                <div class="picprofile">
+                                    <img class="profile" src="Pictures/Profiles/profile1.jpg" alt="profile">
+                                </div>
+                                <div class="picinfo">
+                                    <p class="ptitle">Talking Tech and AI with Google CEO Sundar Pichai!</p>
+                                    <p class="powner">Marques Brownlee</p>
+                                    <p class="pview">3.4M views · 6 months ago</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!--secound picture-->
+                        <div class="piclayout">
+                            <div class="picview">
+                                <img class="pic" src="Pictures/pic2.png" alt="guts picture">
+                                <div class="video-time">8:30</div>
+                            </div>
+                            <div class="pictext">
+                                <div class="picprofile">
+                                    <img class="profile" src="Pictures/Profiles/profile2.jpg" alt="profile">
+                                </div>
+                                <div class="picinfo">
+                                    <p class="ptitle">Try Not To Laugh Challenge #9</p>
+                                    <p class="powner">Markiplier</p>
+                                    <p class="pview">19M views · 4 years ago</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!--third picture-->
+                        <div class="piclayout">
+                            <div class="picview">
+                                <img class="pic" src="Pictures/pic3.jpg" alt="mob picture">
+                                <div class="video-time">12:30</div>
+                            </div>
+                            <div class="pictext">
+                                <div class="picprofile">
+                                    <img class="profile" src="Pictures/Profiles/profile3.jpg" alt="profile">
+                                </div>
+                                <div class="picinfo">
+                                    <p class="ptitle">Crazy Tik Toks Taken Moments Before DISASTER</p>
+                                    <p class="powner">SSSniperWolf</p>
+                                    <p class="pview">12M views · 1 year ago</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!--forth picture-->
+                        <div class="piclayout">
+                            <div class="picview">
+                                <img class="pic" src="Pictures/pic4.jpg" alt="attack picture">
+                                <div class="video-time">21:30</div>
+                            </div>
+                            <div class="pictext">
+                                <div class="picprofile">
+                                    <img class="profile" src="Pictures/Profiles/profile4.jpg" alt="profile">
+                                </div>
+                                <div class="picinfo">
+                                    <p class="ptitle">The Simplest Math Problem No One Can Solve - Collatz Conjecture</p>
+                                    <p class="powner">Veritasium</p>
+                                    <p class="pview">18M views · 4 months ago</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!--fifth picture-->
+                        <div class="piclayout">
+                            <div class="picview">
+                                <img class="pic" src="Pictures/pic5.jpg" alt="genya picture">
+                                <div class="video-time">18:30</div>
+                            </div>
+                            <div class="pictext">
+                                <div class="picprofile">
+                                    <img class="profile" src="Pictures/Profiles/profile5.jpg" alt="profile">
+                                </div>
+                                <div class="picinfo">
+                                    <p class="ptitle">Try Not To Laugh Challenge #9</p>
+                                    <p class="powner">Markiplier</p>
+                                    <p class="pview">19M views · 4 years ago</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!--sixth picture-->
+                        <div class="piclayout">
+                            <div class="picview">
+                                <img class="pic" src="Pictures/pic6.png" alt="rengoko picture">
+                                <div class="video-time">4:30</div>
+                            </div>
+                            <div class="pictext">
+                                <div class="picprofile">
+                                    <img class="profile" src="Pictures/Profiles/profile6.jpg" alt="profile">
+                                </div>
+                                <div class="picinfo">
+                                    <p class="ptitle">Crazy Tik Toks Taken Moments Before DISASTER</p>
+                                    <p class="powner">SSSniperWolf</p>
+                                    <p class="pview">12M views · 1 year ago</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!--seventh picture-->
+                        <div class="piclayout">
+                            <div class="picview">
+                                <img class="pic" src="Pictures/pic7.png" alt="itachi picture">
+                                <div class="video-time">5:30</div>
+                            </div>
+                            <div class="pictext">
+                                <div class="picprofile">
+                                    <img class="profile" src="Pictures/Profiles/profile7.jpg" alt="profile">
+                                </div>
+                                <div class="picinfo">
+                                    <p class="ptitle">Crazy Tik Toks Taken Moments Before DISASTER</p>
+                                    <p class="powner">SSSniperWolf</p>
+                                    <p class="pview">12M views · 1 year ago</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!--eighth picture-->
+                        <div class="piclayout">
+                            <div class="picview">
+                                <img class="pic" src="Pictures/pic8.jpg" alt="inosuke picture">
+                                <div class="video-time">11:30</div>
+                            </div>
+                            <div class="pictext">
+                                <div class="picprofile">
+                                    <img class="profile" src="Pictures/Profiles/profile8.jpg" alt="profile">
+                                </div>
+                                <div class="picinfo">
+                                    <p class="ptitle">Crazy Tik Toks Taken Moments Before DISASTER</p>
+                                    <p class="powner">SSSniperWolf</p>
+                                    <p class="pview">12M views · 1 year ago</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!--ninth picture-->
+                        <div class="piclayout">
+                            <div class="picview">
+                                <img class="pic" src="Pictures/pic9.png" alt="kaneki picture">
+                                <div class="video-time">9:30</div>
+                            </div>
+                            <div class="pictext">
+                                <div class="picprofile">
+                                    <img class="profile" src="Pictures/Profiles/profile9.jpg" alt="profile">
+                                </div>
+                                <div class="picinfo">
+                                    <p class="ptitle">Crazy Tik Toks Taken Moments Before DISASTER</p>
+                                    <p class="powner">SSSniperWolf</p>
+                                    <p class="pview">12M views · 1 year ago</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!--tenth picture-->
+                        <div class="piclayout">
+                            <div class="picview">
+                                <img class="pic" src="Pictures/pic10.jpg" alt="naruto picture">
+                                <div class="video-time">22:30</div>
+                            </div>
+                            <div class="pictext">
+                                <div class="picprofile">
+                                    <img class="profile" src="Pictures/Profiles/profile10.png" alt="profile">
+                                </div>
+                                <div class="picinfo">
+                                    <p class="ptitle">Crazy Tik Toks Taken Moments Before DISASTER</p>
+                                    <p class="powner">SSSniperWolf</p>
+                                    <p class="pview">12M views · 1 year ago</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!--eleventh picture-->
+                        <div class="piclayout">
+                            <div class="picview">
+                                <img class="pic" src="Pictures/pic11.jpg" alt="naruto picture">
+                                <div class="video-time">14:30</div>
+                            </div>
+                            <div class="pictext">
+                                <div class="picprofile">
+                                    <img class="profile" src="Pictures/Profiles/profile11.png" alt="profile">
+                                </div>
+                                <div class="picinfo">
+                                    <p class="ptitle">Crazy Tik Toks Taken Moments Before DISASTER</p>
+                                    <p class="powner">SSSniperWolf</p>
+                                    <p class="pview">12M views · 1 year ago</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!--twelfth picture-->
+                        <div class="piclayout">
+                            <div class="picview">
+                                <img class="pic" src="Pictures/pic12.png" alt="tanjiro picture">
+                                <div class="video-time">2:30</div>
+                            </div>
+                            <div class="pictext">
+                                <div class="picprofile">
+                                    <img class="profile" src="Pictures/Profiles/profile12.jpg" alt="profile">
+                                </div>
+                                <div class="picinfo">
+                                    <p class="ptitle">Crazy Tik Toks Taken Moments Before DISASTER</p>
+                                    <p class="powner">SSSniperWolf</p>
+                                    <p class="pview">12M views · 1 year ago</p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </main>
+            </div>
+            <footer class="footer"></footer>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,113 @@
+.header{
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: white;
+    border-bottom: 1px solid rgb(218, 217, 217);
+    z-index: 1;
+}
+.left-section,.middle-section,.right-section{
+    display: flex;
+    align-items: center;
+}
+.menu-icon{
+    margin-left: 24px;
+    margin-right: 24px;
+}
+.youtube-logo{
+    height: 20px;
+}
+.middle-section{
+    flex: 1;
+    margin-left: 60px;
+    margin-right: 29px;
+    max-width: 470px;
+}
+.search-bar{
+    flex: 1;
+    height: 36px;
+    padding-left: 10px;
+    font-size: 16px;
+    border: 1px solid rgb(182, 181, 181);
+    border-radius: 2px;
+    box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
+    width: 0;
+}
+.search-bar::placeholder{
+    font-size: 16px;
+    color: #948f8f;
+}
+.search-btn{
+    height: 39px;
+    width: 66px;
+    border: 1px solid rgb(182, 181, 181);
+    background-color: #eeecec;
+    margin-left: -1px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.search-btn:hover{
+    background-color: #e1e1e1;
+}
+.search-btn .tooltip,
+.voice-btn .tooltip,.upload-container .tooltip
+,.app-container .tooltip,.notif-container .tooltip{
+    position: absolute;
+    background-color: rgba(143, 143, 143,0.9);
+    color: white;
+    padding: 8px;
+    border-radius: 2px;
+    font-size: 12px;
+    bottom: -50px;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.15ms;
+    white-space: nowrap;
+}
+.search-btn:hover .tooltip,.voice-btn:hover .tooltip,.upload-container:hover .tooltip
+,.app-container:hover .tooltip,.notif-container:hover .tooltip{
+    opacity: 1;
+}
+.search-btn,.voice-btn,.upload-container,.app-container,.notif-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.voice-btn{
+    height: 40px;
+    width: 40px;
+    border: none;
+    border-radius: 20px;
+    background-color: #f4f3f3;
+}
+.right-section{
+    width: 182px;
+    justify-content: space-between;
+    margin-right: 24px;
+    flex-shrink: 0;
+}
+.notif-container{
+    position: relative;
+}
+.notif-count{
+    font-size: 11px;
+    position: absolute;
+    top: -3px;
+    right: -5px;
+    background-color: red;
+    color: white;
+    padding: 1.5px 5px ;
+    border-radius: 20px;
+}
+.profile-icon{
+    object-fit: cover;
+    height: 36px;
+    width: 36px;
+    border-radius: 18px;
+}
